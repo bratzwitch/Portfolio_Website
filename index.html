@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>42 Student Portfolio</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">42</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="title-name">Viacheslav Moroz</span>
+                    <span class="title-subtitle">42 Student & Developer</span>
+                </h1>
+                <p class="hero-description">
+                    Passionate about coding, problem-solving, and building innovative solutions.
+                    Currently studying at 42 School, exploring the depths of computer science.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-animation">
+                    <div class="code-line"></div>
+                    <div class="code-line"></div>
+                    <div class="code-line"></div>
+                    <div class="code-line"></div>
+                    <div class="code-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated student at 42 School, where I'm learning to code without teachers, 
+                        books, or courses. This unique peer-to-peer learning environment has taught me 
+                        not just programming, but also collaboration, problem-solving, and self-reliance.
+                    </p>
+                    <p>
+                        My journey in programming started with curiosity and has evolved into a passion 
+                        for creating efficient, elegant solutions to complex problems. I believe in 
+                        clean code, continuous learning, and the power of technology to make a difference.
+                    </p>
+                </div>
+                <div class="about-visual">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command">whoami</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="output">42_student</span>
+                            </div>
+                            <div class="terminal-line">
+                                <span class="prompt">$</span>
+                                <span class="command typing-animation">echo "Hello, World!"</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Libft</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        My first project at 42. Recreation of standard C library functions, 
+                        learning memory management and algorithmic thinking. Foundation for all future C projects.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/libft" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Get Next Line</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        A function that reads a line from a file descriptor efficiently. 
+                        Deals with file handling, buffer management, and dynamic memory allocation.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/get_next_line" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ft_printf</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        Recreation of the printf function with variadic functions, 
+                        format specifiers, and proper output formatting. Handles various data types and conversions.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/ft_printf" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Push Swap</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        Sorting algorithm optimization project using two stacks and 
+                        a limited set of operations. Implements efficient algorithms to minimize operations count.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/push_swap" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Pipex</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        Recreation of shell pipe functionality using processes, file descriptors, 
+                        and system calls. Handles command execution and pipe communication between processes.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/pipex" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Minitalk</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        Inter-process communication program using UNIX signals. 
+                        Client-server architecture for sending messages bit by bit using SIGUSR1 and SIGUSR2.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/minitalk" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Fract-ol</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        Fractal visualization program using the MiniLibX graphics library. 
+                        Renders beautiful mathematical fractals like Mandelbrot and Julia sets with real-time zoom and color manipulation.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/flactol" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Philosophers</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        Multithreading and synchronization project solving the dining 
+                        philosophers problem. Uses mutexes and threads to prevent deadlocks and race conditions.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/philo" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Minishell</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        A bash-like shell implementation with command parsing, built-ins, 
+                        pipes, redirections, and environment variables. Team project focusing on collaboration.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/minishell" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Cub3D</h3>
+                        <span class="project-tech">C</span>
+                    </div>
+                    <p class="project-description">
+                        A 3D game engine inspired by Wolfenstein 3D using raycasting. 
+                        Features texture mapping, sprite rendering, and real-time 3D graphics using MLX library.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/cub3D" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>C++ Modules</h3>
+                        <span class="project-tech">C++</span>
+                    </div>
+                    <p class="project-description">
+                        Comprehensive C++ learning modules covering OOP principles, 
+                        inheritance, polymorphism, templates, STL containers, and advanced C++ features.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/CPP_modules" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ft_irc</h3>
+                        <span class="project-tech">C++</span>
+                    </div>
+                    <p class="project-description">
+                        IRC (Internet Relay Chat) server implementation in C++. 
+                        Supports multiple clients, channels, user authentication, and standard IRC commands with socket programming.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/ft_irc" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ft_transcendence</h3>
+                        <span class="project-tech">TypeScript</span>
+                    </div>
+                    <p class="project-description">
+                        Full-stack web application featuring a real-time Pong game, user authentication, 
+                        chat system, and tournaments. Built with modern web technologies and containerized with Docker.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/ft_transcendence" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Inception</h3>
+                        <span class="project-tech">Docker</span>
+                    </div>
+                    <p class="project-description">
+                        System administration project using Docker. 
+                        Multi-container setup with WordPress, MySQL, and NGINX, all configured from scratch with custom Dockerfiles.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/Inception" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>NetPractice</h3>
+                        <span class="project-tech">Networking</span>
+                    </div>
+                    <p class="project-description">
+                        Network configuration and troubleshooting exercises. 
+                        Covers IP addressing, subnetting, routing, TCP/IP protocols, and network topology understanding.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/NetPractice" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>BookBot</h3>
+                        <span class="project-tech">Python</span>
+                    </div>
+                    <p class="project-description">
+                        Automated text analysis tool that reads books and generates comprehensive reports 
+                        including word counts, character frequency analysis, and reading statistics.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/BookBot" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Graphical Calculator</h3>
+                        <span class="project-tech">Python</span>
+                    </div>
+                    <p class="project-description">
+                        Advanced calculator application with GUI using Tkinter. 
+                        Features scientific functions, graphing capabilities, equation solving, and history tracking.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/GraphicalCalculator" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Snake Game</h3>
+                        <span class="project-tech">Python</span>
+                    </div>
+                    <p class="project-description">
+                        Classic Snake game implementation using Pygame. 
+                        Features smooth animations, score tracking, collision detection, and increasing difficulty levels.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/SnakeGame" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Science Calculator</h3>
+                        <span class="project-tech">Python</span>
+                    </div>
+                    <p class="project-description">
+                        Comprehensive scientific calculator with advanced mathematical functions, 
+                        unit conversions, statistical calculations, and support for complex numbers and matrices.
+                    </p>
+                    <div class="project-links">
+                        <a href="https://github.com/bratzwitch/ScienceCalculator" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">C</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TypeScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Shell Scripting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-percent="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3>Technologies & Tools</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>Shell</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Pygame</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Networking</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cube"></i>
+                            <span>3D Graphics</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-code"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-ubuntu"></i>
+                            <span>Ubuntu</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        I'm always open to discussing new opportunities, interesting projects, 
+                        or just having a chat about technology and programming.
+                    </p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <span>dudosslava@gmail.com</span>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-linkedin"></i>
+                            <a class="libutton" href="https://www.linkedin.com/in/viacheslav-moroz-60a451213/" target="_blank">View Profile</a>
+                        </div>
+                        <div class="contact-method">
+                            <i class="fab fa-github"></i>
+                            <a class="libutton" href="https://github.com/bratzwitch" target="_blank">View GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Viacheslav Moroz. Built with passion by 42 Student.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+</html>
