@@ -125,6 +125,7 @@ body {
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 20px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
 }
